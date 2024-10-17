@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha suas refeições:"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxCafeManha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Café da manhã"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxAlmoco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Almoço"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxCafeTarde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Café da tarde"/>
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
