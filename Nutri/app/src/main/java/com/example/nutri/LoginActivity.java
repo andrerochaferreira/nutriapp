@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
         editTextName = findViewById(R.id.editTextName);
         editTextEmail = findViewById(R.id.editTextEmail);
         buttonLogin = findViewById(R.id.buttonLogin);
-
+        String qrCodeData = getIntent().getStringExtra("qr_code_data");
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

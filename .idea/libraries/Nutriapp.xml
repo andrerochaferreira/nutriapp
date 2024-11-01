@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Nutriapp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Nutriapp.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
